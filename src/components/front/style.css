@@ -1,0 +1,99 @@
+.front {
+  padding: 50px 150px;
+  /* background-color: #181e21; */
+  background-color: #181e21f5;
+  background-image: url(../../assets/Grid2.png);
+}
+
+.front-left .front-left-image {
+  width: 100%;
+  overflow: hidden;
+}
+
+.front-left-image img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.front-left p {
+  width: 100%;
+  color: #fd5dc9;
+  max-width: 599px;
+  height: 45px;
+  font-size: xx-large;
+  font-weight: 500;
+  line-height: 45px;
+  margin-top: 40px;
+}
+
+.front-left .front-left-button {
+  margin-top: 150px;
+}
+
+.front-left-button button {
+  width: 230px;
+  font-weight: 900;
+  border: none;
+  font-size: larger;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.front-left-button .front-left-button-1 {
+  margin-right: 30px;
+  color: #181e21;
+  background-color: #92d90d;
+}
+
+.front-left-button .front-left-button-2 {
+  margin-right: 30px;
+  color: #92d90d;
+  background-color: #7c6af0;
+}
+
+.front-right img {
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .front {
+    padding: 30px 80px;
+  }
+
+  .front-left .front-left-button {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .front {
+    padding: 20px 40px;
+  }
+
+  .front-left .front-left-button {
+    margin-top: 70px;
+    text-align: center;
+  }
+
+  .front-left-image img {
+    width: 80%;
+  }
+
+  .front-left-button button {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 300px) {
+  .front-left .front-left-button {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .front-left-button button {
+    max-width: 150px;
+  }
+}
+
+

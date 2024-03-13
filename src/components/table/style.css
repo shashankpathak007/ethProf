@@ -1,0 +1,27 @@
+.table {
+  padding: 100px 250px;
+  background-color: #92d90d;
+  background-image: url(../../assets/Grid2.png);
+  text-align: center;
+}
+
+.table-section {
+  border: 5px sold red;
+  background: #3240E9;
+}
+
+.table-section-heading {
+    color: #fbf70f;
+}
+
+@media (max-width: 1200px) {
+  .table {
+    padding: 30px 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .table {
+    padding: 20px 20px;
+  }
+}

@@ -1,0 +1,69 @@
+.cards {
+  padding: 50px 250px;
+  /* background: linear-gradient(
+      0deg,
+      rgba(146, 217, 13, 1) 0%,
+      rgba(24, 30, 33, 1) 40%
+    ),
+    url("../../assets/Grid2.png"); */
+
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../assets/Grid2.png");
+
+  background: linear-gradient(
+    0deg,
+    rgba(146, 217, 13, 1) 0%,
+    rgba(24, 30, 33, 1) 40%
+  );
+}
+
+.card-first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.card-second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-second-number {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+@media (max-width: 1200px) {
+  .cards {
+    padding: 40px 100px;
+  }
+
+  .card-second-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .cards {
+    padding: 30px 60px;
+  }
+
+  .card-second {
+    display: flex;
+    flex-direction: column-reverse !important;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards {
+    padding: 20px 30px;
+  }
+}

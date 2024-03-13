@@ -1,0 +1,29 @@
+.products-heading {
+  text-align: center;
+  background-color: #fbf70f;
+  color: #3240e9;
+  padding-top: 50px;
+  font-size: xxx-large;
+  font-weight: 900;
+}
+
+.products {
+  padding: 50px 150px;
+  background-color: #fbf70f;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (max-width: 1200px) {
+  .products {
+    padding: 30px 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .products {
+    padding: 20px 20px;
+  }
+}
